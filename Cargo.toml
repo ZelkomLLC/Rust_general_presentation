@@ -10,10 +10,14 @@ members = [
     "working/slide11",
     "working/slide21",
     "working/slide30",
+    "working/slide32",
+    "working/slide40",
+    "working/slide41",
 
     "non-working/slide11-err",
     "non-working/slide22-err",
-    "non-working/slide23-err"
+    "non-working/slide23-err",
+    "non-working/slide34-err"
 ]
 
 [workspace.dependencies]
