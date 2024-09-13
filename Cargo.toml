@@ -9,6 +9,7 @@ members = [
 
     "working/slide11",
     "working/slide21",
+    "working/slide30",
 
     "non-working/slide11-err",
     "non-working/slide22-err",
