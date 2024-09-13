@@ -1,0 +1,30 @@
+[package]
+name = "rust_example_code"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = [
+    "hello-world/",
+
+    "working/slide11",
+    "working/slide21",
+
+    "non-working/slide11-err",
+    "non-working/slide22-err",
+    "non-working/slide23-err"
+]
+
+[workspace.dependencies]
+serde_json = "1.0.128"
+reqwest = { version = "0.12.7", features = ["json"] }
+tokio = { version = "1.40.0", features = ["full"] }
+serde = { version = "1.0.210", features = ["derive"] }
+
+[target.'cfg(unix)'.dependencies]
+openssl = { version = "0.10.64", features = ["vendored"] }
+
+[profile.release]
+lto = true
+opt-level = 'z'
+codegen-units = 1

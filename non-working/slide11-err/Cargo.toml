@@ -1,0 +1,4 @@
+[package]
+name = "slide11-err"
+version = "0.1.0"
+edition = "2021"
