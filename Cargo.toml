@@ -7,25 +7,26 @@ edition = "2021"
 members = [
     "hello-world/",
 
-    "working/slide11",
-    "working/slide21",
-    "working/slide30",
-    "working/slide32",
-    "working/slide40",
-    "working/slide41",
-    "working/slide47",
-    "working/slide57",
-    "working/slide69",
-    "working/slide78",
-    "working/slide89",
+    "working/ownership",
+    "working/borrowing",
+    "working/mutability",
+    "working/reference",
+    "working/lifetime",
+    "working/lifetime1",
+    "working/pattern-matching",
+    "working/struct",
+    "working/trait",
+    "working/fetch-data",
+    "working/array-get",
 
-    "non-working/slide11-err",
-    "non-working/slide22-err",
-    "non-working/slide23-err",
-    "non-working/slide34-err",
-    "non-working/slide53-err",
-    "non-working/slide69-err",
-    "non-working/slide78-err"
+    "non-working/ownership-err",
+    "non-working/borrowing-err",
+    "non-working/mutability-err",
+    "non-working/reference-err",
+    "non-working/lifetime-err",
+    "non-working/pattern-matching-err",
+    "non-working/trait-err",
+    "non-working/fetch-data-err"
 ]
 
 [workspace.dependencies]

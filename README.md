@@ -30,7 +30,7 @@ cd Rust_general_presentation
 
 1. Перейдите в директорию с проектом:
    ```
-   cd working/slide11
+   cd working/ownership
    ```
 3. Запустите сборку и выполнение примера:
    ```
@@ -47,11 +47,11 @@ cargo run -p hello-world
 ```
 - Пример запуска рабочего кода
 ```
-cargo run -p slide11
+cargo run -p ownership
 ```
 - Пример запуска НЕ рабочего кода
 ```
-cargo run -p slide11-err
+cargo run -p ownership-err
 ```
 
 ### Третий способ
